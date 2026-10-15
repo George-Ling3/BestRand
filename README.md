@@ -8,9 +8,8 @@ This repository provides the implementation of **BestRand** and the accompanying
 **BestRand-Data** for our paper *Random Is Almost Enough? Stable and Low-Cost
 Benchmark Compression via BestRand*.
 
-**TLDR:** Random subsets are often accurate but can occasionally produce large
-errors. BestRand uses a few probe models to select the most representative subset
-from random candidates, improving stability at low construction cost.
+**TLDR:** Random benchmark subsets often estimate full-benchmark scores accurately but can occasionally produce large errors. 
+BestRand uses a few probe models to pick a representative subset, improving stability at low construction cost.
 
 ## ✨ Highlights
 
