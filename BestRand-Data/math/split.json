@@ -1,0 +1,50 @@
+{
+  "split_seed": 2026,
+  "construction_model_ids": [
+    "bunnycore-qwen-2.5-7b-deep-sky-t1",
+    "akjindal53244-llama-3.1-storm-8b",
+    "newsbang-homer-v0.4-qwen2.5-7b",
+    "fingu-ai-romboultima-32b",
+    "lgai-exaone-exaone-3.5-32b-instruct"
+  ],
+  "test_model_ids": [
+    "kno10-ende-chat-0.0.7",
+    "maziyarpanahi-calme-2.1-qwen2-7b",
+    "bunnycore-qwen2.5-7b-rrp-1m",
+    "icefog72-icemartinirp-7b",
+    "bunnycore-llama-3.2-3b-rp-deepthink",
+    "icefog72-ice0.52.1-16.01-rp",
+    "netcat420-mfannv0.23",
+    "jayhyeon-qwen2.5-0.5b-sft-2e-5-2ep-dpo-7e-7-3ep-0alp-0lam",
+    "zelk12-test01012025155054",
+    "allura-org-tq2.5-14b-aletheia-v1",
+    "dreadpoor-blunt-edge-8b-slerp",
+    "kingnish-qwen2.5-0.5b-test-ft",
+    "cognitivecomputations-dolphin-2.9.4-llama3.1-8b",
+    "triangle104-phi-4-abliteratedrp",
+    "dwikitheduck-gemma-2-2b-id-inst",
+    "dfurman-llama-3-70b-orpo-v0.1",
+    "fluently-lm-fluentlylm-prinum",
+    "netcat420-deepseek-r1-distill-qwen-mfann-slerp-7b",
+    "daemontatox-cogitoz14",
+    "vicgalle-configurable-llama-3.1-8b-instruct"
+  ],
+  "fractions": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.5
+  ],
+  "budgets": [
+    26,
+    66,
+    132,
+    199,
+    265,
+    662
+  ],
+  "construction_strategy": "uniform_score",
+  "test_strategy": "random"
+}

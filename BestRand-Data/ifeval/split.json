@@ -1,0 +1,50 @@
+{
+  "split_seed": 2026,
+  "construction_model_ids": [
+    "bee-spoke-data-tfine-900m-e16-d32-instruct-2e",
+    "fblgit-miniclaus-qw1.5b-unamgs",
+    "allknowingroger-qwen2.5-7b-task4",
+    "nvidia-nemotron-mini-4b-instruct",
+    "combinhorizon-huihui-ai-abliterated-qwen2.5-32b-inst-basemerge-ties"
+  ],
+  "test_model_ids": [
+    "kquant03-cognitivefusion2-4x7b-bf16",
+    "maziyarpanahi-calme-2.1-qwen2-7b",
+    "bunnycore-qwen2.5-7b-rrp-1m",
+    "icefog72-icenalyvkarp-7b",
+    "bunnycore-llama-3.2-3b-rrstock",
+    "icefog72-ice0.53-16.01-rp",
+    "netcat420-mfannv0.23",
+    "jayhyeon-qwen2.5-0.5b-sft-2e-5-2ep-dpop-3e-7-3ep-0alp-5lam",
+    "zelk12-test01012025155054",
+    "allura-org-tq2.5-14b-aletheia-v1",
+    "dreadpoor-bulkup",
+    "kingnish-reasoning-llama-3b-v0.1",
+    "cognitivecomputations-dolphin-2.9.4-llama3.1-8b",
+    "triangle104-phi-4-abliteratedrp",
+    "dwikitheduck-gemma-2-2b-id-instruct",
+    "dfurman-llama-3-8b-orpo-v0.1",
+    "fluently-lm-llama-ti-8b",
+    "netcat420-deepseek-r1-distill-qwen-mfann-slerp-7b",
+    "daemontatox-documentcogito",
+    "vicgalle-configurable-llama-3.1-8b-instruct"
+  ],
+  "fractions": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.5
+  ],
+  "budgets": [
+    11,
+    27,
+    54,
+    81,
+    108,
+    271
+  ],
+  "construction_strategy": "uniform_score",
+  "test_strategy": "random"
+}

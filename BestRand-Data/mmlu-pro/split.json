@@ -1,0 +1,50 @@
+{
+  "split_seed": 2026,
+  "construction_model_ids": [
+    "unsloth-llama-3.2-1b-instruct-no-system-message",
+    "godlikehhd-ifd-2500-qwen",
+    "ashercn97-a1-v002",
+    "suayptalha-luminis-phi-4",
+    "arcee-ai-arcee-blitz"
+  ],
+  "test_model_ids": [
+    "jayhyeon-qwen2.5-0.5b-sft-2e-5-2ep-dpo-5e-7-3ep-0alp-0lam",
+    "krystalan-drt-o1-14b",
+    "daemontatox-aethertot",
+    "jaspionjader-bh-33",
+    "cultrix-qwen2.5-14b-brocav7",
+    "jaspionjader-bh-17",
+    "norquinal-charlie",
+    "jayhyeon-qwen-0.5-dpop-1e-6-3ep-0alp-5lam",
+    "zelk12-mtmame-merge-02012025163610-gemma-2-9b",
+    "belztjti-dffghgjh",
+    "drxd1000-atlas-7b",
+    "jayhyeon-qwen2.5-0.5b-sft-2e-5-2ep-dpo-5e-6-3ep-0alp-0lam",
+    "danielbrdz-barcenas-r1-qwen-1.5b",
+    "tensopolis-virtuoso-small-v2-tensopolis-v1",
+    "epistemeai-reasoning-llama-3.1-cot-re1-nmt-v2-orpo",
+    "dreadpoor-morphing-8b-model-stock",
+    "grimjim-llama3.1-supernovalite-huatuoskywork-o1-8b",
+    "nitral-ai-captain-bmo-12b",
+    "doppelreflex-mn-12b-mimicore-orochi-v4-experiment",
+    "triangle104-ds-r1-distill-q2.5-7b-rp"
+  ],
+  "fractions": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.5
+  ],
+  "budgets": [
+    241,
+    602,
+    1203,
+    1805,
+    2406,
+    6016
+  ],
+  "construction_strategy": "uniform_score",
+  "test_strategy": "random"
+}

@@ -1,0 +1,7 @@
+{
+  "seed_start": 0,
+  "seed_count": 10,
+  "pool_multiplier": 4,
+  "candidate_count": 128,
+  "fractions": [0.02, 0.05, 0.1, 0.15, 0.2, 0.5]
+}

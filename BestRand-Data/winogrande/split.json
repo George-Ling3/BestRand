@@ -1,0 +1,50 @@
+{
+  "split_seed": 2026,
+  "construction_model_ids": [
+    "bee-spoke-data-zephyr-220m-sft-full",
+    "euclaise-falcon-1b-stage3-2",
+    "allenai-olmo-7b-hf",
+    "922ca-silicon-monika-7b",
+    "saltlux-luxia-21.4b-alignment-v0.2"
+  ],
+  "test_model_ids": [
+    "kukedlc-fasciculus-arcuatus-7b-slerp",
+    "lordnoah-alpaca-refine-gpt2-e1-se0",
+    "azure99-blossom-v5-4b",
+    "gmonsoon-delta-4b-base",
+    "awanllm-awanllm-llama-3-8b-cumulus-v0.2",
+    "gille-strangemerges-27-7b-dare-ties",
+    "monero-wizardlm-30b-uncensored-guanaco-supercot-30b",
+    "josephgflowers-tinyllama-320m-cinder-v1",
+    "zhengr-mixtao-7bx2-moe-dpo",
+    "ajibawa-2023-uncensored-frank-13b",
+    "cognitivecomputations-dolphin-2.2.1-mistral-7b",
+    "kquant03-prokaryote-8x7b-bf16",
+    "bfauber-lora-llama2-13b-10e5-r128-a4",
+    "varox34-bio-saul-dolphin-beagle-breadcrumbs",
+    "cultrix-wernicke-7b-dpo",
+    "chickaboo-chickaq-v2-large-beta",
+    "ehartford-samantha-1.11-70b",
+    "mlabonne-daredevil-8b",
+    "callcomply-starling-lm-11b-alpha",
+    "wdong-qwen1.5-1.8b-seed-sft"
+  ],
+  "fractions": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.5
+  ],
+  "budgets": [
+    25,
+    63,
+    127,
+    190,
+    253,
+    634
+  ],
+  "construction_strategy": "uniform_score",
+  "test_strategy": "random"
+}

@@ -1,0 +1,50 @@
+{
+  "split_seed": 2026,
+  "construction_model_ids": [
+    "lqtrung1998-codellama-7b-hf-reft-rerank-gsm8k",
+    "aloobun-reyna-cot-4b-v0.1",
+    "0-hero-matter-0.1-slim-7b",
+    "sf-foundation-ein-72b-v0.12",
+    "dopeornope-cokal-v1-70b"
+  ],
+  "test_model_ids": [
+    "kukedlc-brocae-area-7b-slerp",
+    "lordnoah-alpaca-refine-gpt2-e0-se1",
+    "azure99-blossom-v5-4b",
+    "glenn2-gemma-7b-lora-distilabel-intel-orca-dpo-pairs",
+    "awanllm-awanllm-llama-3-8b-cumulus-v0.2",
+    "gille-strangemerges-26-7b-dare-ties",
+    "monero-wizardlm-30b-uncensored-guanaco-supercot-30b",
+    "josephgflowers-tinyllama-1.5b-cinder-test-5",
+    "zhengr-mixtao-7bx2-moe-dpo",
+    "ajibawa-2023-uncensored-frank-13b",
+    "codeparrot-codeparrot",
+    "kquant03-neuraltrix-7b-dpo-relaser",
+    "bfauber-lora-llama2-13b-10e5-r128-a16",
+    "varox34-bio-saul-dolphin-beagle-breadcrumbs",
+    "cultrix-severeneuralbeagletrix-7b",
+    "chickaboo-chickaq",
+    "ehartford-samantha-1.11-70b",
+    "mlabonne-daredevil-8b",
+    "callcomply-solar-10.7b-instruct-v1.0-128k",
+    "wdong-qwen1.5-1.8b-seed-sft"
+  ],
+  "fractions": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.5
+  ],
+  "budgets": [
+    23,
+    59,
+    117,
+    176,
+    234,
+    586
+  ],
+  "construction_strategy": "uniform_score",
+  "test_strategy": "random"
+}

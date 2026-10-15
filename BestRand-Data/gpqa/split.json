@@ -1,0 +1,50 @@
+{
+  "split_seed": 2026,
+  "construction_model_ids": [
+    "allknowingroger-yi-1.5-34b",
+    "01-ai-yi-1.5-6b-chat",
+    "01-ai-yi-34b-chat",
+    "hotmailuser-qwenstock1-14b",
+    "daemontatox-llama3.3-70b-cognilink"
+  ],
+  "test_model_ids": [
+    "kquant03-l3-pneuma-8b",
+    "maziyarpanahi-calme-2.1-qwen2.5-72b",
+    "bunnycore-qwen2.5-7b-rrp-1m-thinker",
+    "icefog72-icesakerp-7b",
+    "bunnycore-phi-3.5-mini-titanfusion-0.1",
+    "icefog72-ice0.54-17.01-rp",
+    "netcat420-mfannv0.24",
+    "jayhyeon-qwen2.5-0.5b-sft-2e-5-2ep-dpop-5e-6-1ep-0alp-5lam",
+    "zelk12-test01012025155054",
+    "aloobun-d-smollm2-360m",
+    "dreadpoor-caelid-8b-model-stock",
+    "kms7530-chemeng-llama-3-8b-instruct-bnb-4bit-24-1-100-1",
+    "cognitivecomputations-dolphin3.0-llama3.1-8b",
+    "triangle104-phi-4-abliteratedrp",
+    "dwikitheduck-gen-inst-1",
+    "dfurman-qwen2-72b-orpo-v0.1",
+    "fluently-lm-llama-ti-8b",
+    "netcat420-deepseek-r1-mfann-ties-unretrained-7b",
+    "daemontatox-documentcogito",
+    "vicgalle-configurable-llama-3.1-8b-instruct"
+  ],
+  "fractions": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.5
+  ],
+  "budgets": [
+    11,
+    27,
+    55,
+    82,
+    109,
+    273
+  ],
+  "construction_strategy": "uniform_score",
+  "test_strategy": "random"
+}

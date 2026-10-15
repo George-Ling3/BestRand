@@ -1,0 +1,457 @@
+{
+  "schema_version": "bestrand-data-v1",
+  "name": "BestRand-Data",
+  "source": "https://huggingface.co/datasets/linggm/RouterEval",
+  "source_code": "https://github.com/MilkThink-Lab/RouterEval",
+  "source_license": "MIT (upstream dataset card); underlying benchmark terms apply",
+  "matrix_orientation": "model_by_item",
+  "benchmarks": {
+    "arc-challenge": {
+      "item_count": 1172,
+      "model_count": 5000,
+      "score_type": "binary",
+      "dtype": "uint8",
+      "metric": "correctness",
+      "source_matrix_sha256": "9d874ed586795368d6b673f987a4e1ef8374d7b3a09701b01687ed2d5a3dda4c",
+      "source_split_sha256": "0ece60f7dca0743d62a51db1fe5657a618afc4f9266fb393f94eb55fbb259f0f",
+      "source_tasks": [
+        "harness_arc_challenge_25"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "5fec923975168c9cb121d116cf73662f39817cbcd2d6b7f3f5d3b2bae372c5fc",
+          "bytes": 1535891
+        },
+        "models.json": {
+          "sha256": "d34ed8b09a007e871617fb4783fc011715512dae7a46f414186008ecfc8f200b",
+          "bytes": 753055
+        },
+        "scores.npz": {
+          "sha256": "0b3f90fc8e4a2142b94bccb4b546df3254647db03549ba05ae3d50013aeaa2fd",
+          "bytes": 844741
+        },
+        "split.json": {
+          "sha256": "6e213324862198da2fa51c7e2162633db3b58e0262f0e4f9bdd947db8b6ec376",
+          "bytes": 1315
+        }
+      }
+    },
+    "bbh": {
+      "item_count": 5761,
+      "model_count": 3811,
+      "score_type": "binary",
+      "dtype": "uint8",
+      "metric": "correctness",
+      "source_matrix_sha256": "4298225450012b25651f82d3c5348caf933449fb9af70139e532f61b06a1d657",
+      "source_split_sha256": "7a974ffcd407ebd290861d4902ad7a28f331d4b8f7ccd8c2a66f89e3a67c8e82",
+      "source_tasks": [
+        "bbh_boolean_expressions",
+        "bbh_causal_judgement",
+        "bbh_date_understanding",
+        "bbh_disambiguation_qa",
+        "bbh_formal_fallacies",
+        "bbh_geometric_shapes",
+        "bbh_hyperbaton",
+        "bbh_logical_deduction_five_objects",
+        "bbh_logical_deduction_seven_objects",
+        "bbh_logical_deduction_three_objects",
+        "bbh_movie_recommendation",
+        "bbh_navigate",
+        "bbh_object_counting",
+        "bbh_penguins_in_a_table",
+        "bbh_reasoning_about_colored_objects",
+        "bbh_ruin_names",
+        "bbh_salient_translation_error_detection",
+        "bbh_snarks",
+        "bbh_sports_understanding",
+        "bbh_temporal_sequences",
+        "bbh_tracking_shuffled_objects_five_objects",
+        "bbh_tracking_shuffled_objects_seven_objects",
+        "bbh_tracking_shuffled_objects_three_objects",
+        "bbh_web_of_lies"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "b7f1a953a42cadfeb28e458603606bcf4a47b94e4f9760d5130a88ba776a4772",
+          "bytes": 441386
+        },
+        "models.json": {
+          "sha256": "15177f285ad5e731c969d98a10cd32c9c82ce0314a1a907182718bfdd6250336",
+          "bytes": 493819
+        },
+        "scores.npz": {
+          "sha256": "b6884992cec103344c6dfe1e26e8c06e4acaea80aff00d6b7edf159f7ffcab3a",
+          "bytes": 3396926
+        },
+        "split.json": {
+          "sha256": "c5f477cb841270aa619b786f1726c21a7f17c703a3bf51aebe7eeeb5cdbe4495",
+          "bytes": 1291
+        }
+      }
+    },
+    "gpqa": {
+      "item_count": 546,
+      "model_count": 3811,
+      "score_type": "binary",
+      "dtype": "uint8",
+      "metric": "correctness",
+      "source_matrix_sha256": "29f274a219346e6d0f32bca1917ef860312e6c886efe4a52e21eb5d4a055b2d5",
+      "source_split_sha256": "4ef4987d07c69ebbe4c56c9be284e570c3cfa1630ff3e5bb2d348006c556acca",
+      "source_tasks": [
+        "gpqa_extended"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "b2b5e80d0153fc46e877a782bae87c15ac8c5de05a73c6dd1ce22b8fbddc1498",
+          "bytes": 141240
+        },
+        "models.json": {
+          "sha256": "15177f285ad5e731c969d98a10cd32c9c82ce0314a1a907182718bfdd6250336",
+          "bytes": 493819
+        },
+        "scores.npz": {
+          "sha256": "2283250bc920443c8524cb5139b8166b01a9fb03c5f2891d9366a0975cc87078",
+          "bytes": 284431
+        },
+        "split.json": {
+          "sha256": "0e5e4e76eec5b6eaa295fa79ab483f0ba7b0b992960643f23e824a04ae9e39e3",
+          "bytes": 1278
+        }
+      }
+    },
+    "gsm8k": {
+      "item_count": 1319,
+      "model_count": 5000,
+      "score_type": "binary",
+      "dtype": "uint8",
+      "metric": "correctness",
+      "source_matrix_sha256": "faa9384cdd4e75d33783b381ba8cb8f9eaec491cc63f4196a15e603565e40ed9",
+      "source_split_sha256": "1edd15532f0b35b909c1d5d4092e32bfbf81723ff09d1518193bc54e8799afdb",
+      "source_tasks": [
+        "harness_gsm8k_5"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "97aaf183fff786d34e02b8cf5a38b9bfed1a9069634262f5c0b5481ec1a0c3cc",
+          "bytes": 1310691
+        },
+        "models.json": {
+          "sha256": "d34ed8b09a007e871617fb4783fc011715512dae7a46f414186008ecfc8f200b",
+          "bytes": 753055
+        },
+        "scores.npz": {
+          "sha256": "32e2fa5ed1831c88d3e9d069ff32f04e1edc756a1408c895afda07614815d219",
+          "bytes": 798849
+        },
+        "split.json": {
+          "sha256": "3ea728f1a447ff921e555a37dfe2a8cf7ba79afc6c8f91ebd4bf07af7840a46b",
+          "bytes": 1295
+        }
+      }
+    },
+    "truthfulqa": {
+      "item_count": 817,
+      "model_count": 5000,
+      "score_type": "continuous",
+      "dtype": "float64",
+      "metric": "correctness",
+      "source_matrix_sha256": "84fdea32ca489e0d83fd08a62516903bec316deaf464111b6357a86f96c75990",
+      "source_split_sha256": "b55dd71713215d3bfb5948af482c440c5a43d3ddde5625b3fcffac4e1ebeaab0",
+      "source_tasks": [
+        "harness_truthfulqa_mc_0"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "de2b5602a209dd262fe7144df690ab2b30e3ae1dee5fed937e78a28ad03300b8",
+          "bytes": 36663
+        },
+        "models.json": {
+          "sha256": "d34ed8b09a007e871617fb4783fc011715512dae7a46f414186008ecfc8f200b",
+          "bytes": 753055
+        },
+        "scores.npz": {
+          "sha256": "55e64792f8bac916bcc6ffdde280113f683ee8a2e8c36551400c6ed7dd1ae079",
+          "bytes": 29160789
+        },
+        "split.json": {
+          "sha256": "ce1a88fa2883597a9a9e83f5a6bd063fd38b073cbd3c4c5bce1885238c57dc9a",
+          "bytes": 1276
+        }
+      }
+    },
+    "hellaswag": {
+      "item_count": 10042,
+      "model_count": 5000,
+      "score_type": "binary",
+      "dtype": "uint8",
+      "metric": "correctness",
+      "source_matrix_sha256": "a2585736e08ed1e4e8057524e161b431fcbcd8ae33372104ce4fc0352a0dbd63",
+      "source_split_sha256": "571fd3c387f11675e7c7b83b98f55f89b83f76f36fc2877d4fc788530bbe19bb",
+      "source_tasks": [
+        "harness_hellaswag_10"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "7b36ed8f382dca290973653eb68dff4466c56be01c0cd9eff36251601e23f029",
+          "bytes": 13885121
+        },
+        "models.json": {
+          "sha256": "d34ed8b09a007e871617fb4783fc011715512dae7a46f414186008ecfc8f200b",
+          "bytes": 753055
+        },
+        "scores.npz": {
+          "sha256": "a09090002d0c26b1180c4fa9a5f9579e347e1e5dc89d25f6e9eae71e66ca291f",
+          "bytes": 7884934
+        },
+        "split.json": {
+          "sha256": "fec4b4c27eb4d8dce945ea83d7368b09d67033871a743d36591a161f0be6b4a5",
+          "bytes": 1234
+        }
+      }
+    },
+    "ifeval": {
+      "item_count": 541,
+      "model_count": 3811,
+      "score_type": "binary",
+      "dtype": "uint8",
+      "metric": "correctness",
+      "source_matrix_sha256": "bd1f3b505701cc8197783c50cdeb2ec25d890bcc4a6e066eb64815d75c8bb8d9",
+      "source_split_sha256": "db2f15be5346b925d272c92fefd404d323f37e29eaa0359e65737e53a7a32345",
+      "source_tasks": [
+        "ifeval"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "7fb0932e2675b3349f5f7a225e29cf1a0665bb4c62df31094b411b80c68be2fe",
+          "bytes": 43160
+        },
+        "models.json": {
+          "sha256": "15177f285ad5e731c969d98a10cd32c9c82ce0314a1a907182718bfdd6250336",
+          "bytes": 493819
+        },
+        "scores.npz": {
+          "sha256": "172386ecda0daa6e5a9f396ec75327e5ea5b5c137df0b1efe121a5e8db2f6910",
+          "bytes": 297405
+        },
+        "split.json": {
+          "sha256": "8e116a147beb43cb85996f38ca75337d32979d55e504850dd09d204fb93e6670",
+          "bytes": 1349
+        }
+      }
+    },
+    "math": {
+      "item_count": 1324,
+      "model_count": 3811,
+      "score_type": "binary",
+      "dtype": "uint8",
+      "metric": "MATH level-5 correctness",
+      "source_matrix_sha256": "ed865dff7ca97c4208e9261f60ad36322093cf1b43ec1a6c126928c896d32777",
+      "source_split_sha256": "1d141a61867c19f2896c084521818e7def6db9253e770d4e9cbadc4f807e6242",
+      "source_tasks": [
+        "math_algebra_hard",
+        "math_counting_and_prob_hard",
+        "math_geometry_hard",
+        "math_intermediate_algebra_hard",
+        "math_num_theory_hard",
+        "math_prealgebra_hard",
+        "math_precalculus_hard"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "6601e9868f718efc35316fc631bd0a24bdb505d5fcb53c2defa5d9fecbdc3502",
+          "bytes": 170075
+        },
+        "models.json": {
+          "sha256": "15177f285ad5e731c969d98a10cd32c9c82ce0314a1a907182718bfdd6250336",
+          "bytes": 493819
+        },
+        "scores.npz": {
+          "sha256": "ffd56d640d657d4a4a29914886d70fc115061107715e022bde9351b02b27ea10",
+          "bytes": 372546
+        },
+        "split.json": {
+          "sha256": "7601c466f494f4ae0640b71dd7ccdf4b04180721a847d2f594efa14dcf277f9a",
+          "bytes": 1299
+        }
+      }
+    },
+    "mmlu-pro": {
+      "item_count": 12032,
+      "model_count": 1823,
+      "score_type": "binary",
+      "dtype": "uint8",
+      "metric": "correctness",
+      "source_matrix_sha256": "e8d34c25f3c5e865a408be46ebf4a1ff57ce8ae00369b107de03f876275473c8",
+      "source_split_sha256": "a0fe08bcddc6e4fc953ca95d1edf23df8e9bc1702955360169c5358582ba34da",
+      "source_tasks": [
+        "mmlu_pro"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "1aa5e3698fca98ad4286d34ec4baa408810b149770cdf8c8469df221143b079e",
+          "bytes": 3169591
+        },
+        "models.json": {
+          "sha256": "8cef69f7b7b7ef9c889144b0f52b8202b1af1b907a8e67a8afc4772d8c31972d",
+          "bytes": 233396
+        },
+        "scores.npz": {
+          "sha256": "e8788b86486eb7af4822ed8ab066a8cf3a7251f38e185880dc2a18eacbad0868",
+          "bytes": 3225733
+        },
+        "split.json": {
+          "sha256": "9d7a93fa3e53600feac8aa52d0f825a316101e0322b8d6e586696c22993c8773",
+          "bytes": 1317
+        }
+      }
+    },
+    "mmlu": {
+      "item_count": 14042,
+      "model_count": 5000,
+      "score_type": "binary",
+      "dtype": "uint8",
+      "metric": "correctness",
+      "source_matrix_sha256": "abc5e707d9fdc478a9380fa419419d2344d0a5f7ac07b846b2097de2b732177b",
+      "source_split_sha256": "ba2950f3be87573845df19dfb326a4f2915136ec55998b47d0af48aef81a673f",
+      "source_tasks": [
+        "harness_hendrycksTest_abstract_algebra_5",
+        "harness_hendrycksTest_anatomy_5",
+        "harness_hendrycksTest_astronomy_5",
+        "harness_hendrycksTest_business_ethics_5",
+        "harness_hendrycksTest_clinical_knowledge_5",
+        "harness_hendrycksTest_college_biology_5",
+        "harness_hendrycksTest_college_chemistry_5",
+        "harness_hendrycksTest_college_computer_science_5",
+        "harness_hendrycksTest_college_mathematics_5",
+        "harness_hendrycksTest_college_medicine_5",
+        "harness_hendrycksTest_college_physics_5",
+        "harness_hendrycksTest_computer_security_5",
+        "harness_hendrycksTest_conceptual_physics_5",
+        "harness_hendrycksTest_econometrics_5",
+        "harness_hendrycksTest_electrical_engineering_5",
+        "harness_hendrycksTest_elementary_mathematics_5",
+        "harness_hendrycksTest_formal_logic_5",
+        "harness_hendrycksTest_global_facts_5",
+        "harness_hendrycksTest_high_school_biology_5",
+        "harness_hendrycksTest_high_school_chemistry_5",
+        "harness_hendrycksTest_high_school_computer_science_5",
+        "harness_hendrycksTest_high_school_european_history_5",
+        "harness_hendrycksTest_high_school_geography_5",
+        "harness_hendrycksTest_high_school_government_and_politics_5",
+        "harness_hendrycksTest_high_school_macroeconomics_5",
+        "harness_hendrycksTest_high_school_mathematics_5",
+        "harness_hendrycksTest_high_school_microeconomics_5",
+        "harness_hendrycksTest_high_school_physics_5",
+        "harness_hendrycksTest_high_school_psychology_5",
+        "harness_hendrycksTest_high_school_statistics_5",
+        "harness_hendrycksTest_high_school_us_history_5",
+        "harness_hendrycksTest_high_school_world_history_5",
+        "harness_hendrycksTest_human_aging_5",
+        "harness_hendrycksTest_human_sexuality_5",
+        "harness_hendrycksTest_international_law_5",
+        "harness_hendrycksTest_jurisprudence_5",
+        "harness_hendrycksTest_logical_fallacies_5",
+        "harness_hendrycksTest_machine_learning_5",
+        "harness_hendrycksTest_management_5",
+        "harness_hendrycksTest_marketing_5",
+        "harness_hendrycksTest_medical_genetics_5",
+        "harness_hendrycksTest_miscellaneous_5",
+        "harness_hendrycksTest_moral_disputes_5",
+        "harness_hendrycksTest_moral_scenarios_5",
+        "harness_hendrycksTest_nutrition_5",
+        "harness_hendrycksTest_philosophy_5",
+        "harness_hendrycksTest_prehistory_5",
+        "harness_hendrycksTest_professional_accounting_5",
+        "harness_hendrycksTest_professional_law_5",
+        "harness_hendrycksTest_professional_medicine_5",
+        "harness_hendrycksTest_professional_psychology_5",
+        "harness_hendrycksTest_public_relations_5",
+        "harness_hendrycksTest_security_studies_5",
+        "harness_hendrycksTest_sociology_5",
+        "harness_hendrycksTest_us_foreign_policy_5",
+        "harness_hendrycksTest_virology_5",
+        "harness_hendrycksTest_world_religions_5"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "5e6b7c21e082528887b3269d6cea0e970bae3d78537616703a6a4cd55dec0bde",
+          "bytes": 2919577
+        },
+        "models.json": {
+          "sha256": "d34ed8b09a007e871617fb4783fc011715512dae7a46f414186008ecfc8f200b",
+          "bytes": 753055
+        },
+        "scores.npz": {
+          "sha256": "ba014522f9d2d5a7183a94bb74990f469b24d77e51315c42ac24a7211f585055",
+          "bytes": 10799671
+        },
+        "split.json": {
+          "sha256": "5e22f429b69d4e0671117f23955152d54188c78ed1de0e189b205443ae899062",
+          "bytes": 1201
+        }
+      }
+    },
+    "musr": {
+      "item_count": 756,
+      "model_count": 3811,
+      "score_type": "binary",
+      "dtype": "uint8",
+      "metric": "correctness",
+      "source_matrix_sha256": "d1f74cf7b326b5189dfbda0fb08e1cf14003c262efe0bee537f55a1994bff3f2",
+      "source_split_sha256": "653a33f1cf8c45bf7474742d88effab4c481172c04fe168e105044ef12b62c32",
+      "source_tasks": [
+        "musr_murder_mysteries",
+        "musr_object_placements",
+        "musr_team_allocation"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "8661b409c52d6ac5fa8f75f6285e3a8cd0f415f74d37988d3597b9a439ad9401",
+          "bytes": 971414
+        },
+        "models.json": {
+          "sha256": "15177f285ad5e731c969d98a10cd32c9c82ce0314a1a907182718bfdd6250336",
+          "bytes": 493819
+        },
+        "scores.npz": {
+          "sha256": "db4d30c6d7e6f6be4958c1eec3b91f50a565aa54527b3de0dc78f041cfa59e37",
+          "bytes": 391879
+        },
+        "split.json": {
+          "sha256": "2083b68680073ce9bce1985939d873387ae3f1f2a824edeee6e036008c05364d",
+          "bytes": 1270
+        }
+      }
+    },
+    "winogrande": {
+      "item_count": 1267,
+      "model_count": 5000,
+      "score_type": "binary",
+      "dtype": "uint8",
+      "metric": "correctness",
+      "source_matrix_sha256": "068dc7e2583fe1c78d127398409834bc3fe4ebcc04f44970a958975c9eef3f85",
+      "source_split_sha256": "7bbd3a4289552844ab4277d8a12201693026b57aa19d5cec50d2f14e0bdd4fbe",
+      "source_tasks": [
+        "harness_winogrande_5"
+      ],
+      "files": {
+        "items.jsonl.gz": {
+          "sha256": "2b081ff2fdf8ee18e6e1f3fbd478a72c45bd3645d416cdd4cb86bef4721ccef7",
+          "bytes": 302863
+        },
+        "models.json": {
+          "sha256": "d34ed8b09a007e871617fb4783fc011715512dae7a46f414186008ecfc8f200b",
+          "bytes": 753055
+        },
+        "scores.npz": {
+          "sha256": "711fd40868740da20ec021e324ed313c0a4a34c36c9919003a5eeef6c40f95f4",
+          "bytes": 836692
+        },
+        "split.json": {
+          "sha256": "cd8515833329f57bf95ceecd1945951194dea85534f543d15ed47fd36e873f1a",
+          "bytes": 1295
+        }
+      }
+    }
+  }
+}

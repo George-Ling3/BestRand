@@ -1,0 +1,50 @@
+{
+  "split_seed": 2026,
+  "construction_model_ids": [
+    "aeala-gpt4-x-alpasta-13b",
+    "amberyifan-safe-spin-iter1-v2",
+    "cookinai-llamareflect-8b-cot",
+    "adamo1139-yi-34b-200k-rawrr-dpo-1",
+    "sf-foundation-ein-72b-v0.13"
+  ],
+  "test_model_ids": [
+    "kukedlc-fasciculus-arcuatus-7b-slerp",
+    "lordnoah-alpaca-refine-gpt2-e1-se0",
+    "azure99-blossom-v5-7b",
+    "gmonsoon-delta-4b-base",
+    "awanllm-awanllm-llama-3-8b-dolfin-v0.3",
+    "gille-strangemerges-27-7b-dare-ties",
+    "monero-wizardlm-30b-uncensored-guanaco-supercot-30b",
+    "josephgflowers-tinyllama-320m-cinder-v1",
+    "zhengr-mixtao-7bx2-moe-dpo",
+    "ajibawa-2023-uncensored-frank-7b",
+    "cognitivecomputations-dolphin-2.2.1-mistral-7b",
+    "kquant03-prokaryote-8x7b-bf16",
+    "bfauber-lora-llama2-13b-10e5-r128-a4",
+    "varox34-bio-saul-dolphin-beagle-breadcrumbs",
+    "cultrix-wernicke-7b-v1",
+    "chickaboo-chickaq-v2-large-beta",
+    "ehartford-samantha-1.11-7b",
+    "mlabonne-daredevil-8b",
+    "callcomply-starling-lm-11b-alpha",
+    "wdong-qwen1.5-1.8b-seed-sft"
+  ],
+  "fractions": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.5
+  ],
+  "budgets": [
+    26,
+    66,
+    132,
+    198,
+    264,
+    660
+  ],
+  "construction_strategy": "uniform_score",
+  "test_strategy": "random"
+}

@@ -1,0 +1,50 @@
+{
+  "split_seed": 2026,
+  "construction_model_ids": [
+    "xhyi-pt-gptneo350-atg",
+    "dball-zephyr-tiny-dpo-qlora",
+    "abacusai-giraffe-beta-13b-32k",
+    "vagosolutions-llama-3-sauerkrautlm-8b-instruct",
+    "swap-uniba-llamantino-3-anita-8b-inst-dpo-ita"
+  ],
+  "test_model_ids": [
+    "krevas-solar-10.7b",
+    "lole25-zephyr-7b-gpo-v6-i1",
+    "azure99-blossom-v5-34b",
+    "glenn2-gemma-2b-lora3",
+    "avinash31d-phi-2-slerp",
+    "gille-strangemerges-25-7b-dare-ties",
+    "mollel-swahili-alpaca-llama-3-8b-16bit",
+    "josephgflowers-tinyllama-1.5b-cinder-test-4",
+    "zhengr-mixtao-7bx2-moe-dpo",
+    "ajibawa-2023-uncensored-frank-13b",
+    "codellama-codellama-7b-hf",
+    "kquant03-neuraltrix-7b-dpo-laser",
+    "bfauber-lora-llama2-13b-10e4",
+    "vankhoa-test-phi2",
+    "cultrix-neuraltrixlaser-bf16",
+    "chickaboo-chicka-mixtral-3x7b",
+    "ehartford-samantha-1.11-13b",
+    "mlabonne-chimera-8b",
+    "callcomply-openchat-3.5-0106-32k",
+    "wassemgtk-16b-experiment-llama-2"
+  ],
+  "fractions": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.5
+  ],
+  "budgets": [
+    201,
+    502,
+    1004,
+    1506,
+    2008,
+    5021
+  ],
+  "construction_strategy": "uniform_score",
+  "test_strategy": "random"
+}
