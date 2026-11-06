@@ -1,8 +1,9 @@
 # Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand
 
+[![Paper](https://img.shields.io/badge/Paper-arXiv--preprint-b31b1b)](https://arxiv.org/pdf/2611.00883)
+[![Data](https://img.shields.io/badge/Data-BestRand--Data-orange)](BestRand-Data/README.md)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 [![Code License](https://img.shields.io/badge/Code%20License-MIT-green)](LICENSE)
-[![Data](https://img.shields.io/badge/Data-BestRand--Data-orange)](BestRand-Data/README.md)
 
 This repository provides the implementation of **BestRand** and the accompanying
 **BestRand-Data** for our paper *Random Is Almost Enough? Stable and Low-Cost
@@ -122,3 +123,20 @@ We thank the original benchmark creators for their contributions to model evalua
 
 The implementation is released under the [MIT License](LICENSE). Data licenses
 and source attributions are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+
+## 📝 Citation
+
+If you find BestRand useful in your research, please consider citing our paper:
+
+```bibtex
+@misc{ling2026randomenoughstablelowcost,
+  title={Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand},
+  author={George Ling and Shanshan Zhong and Lijin Yang and Hao Yang and Nanxiang Li and Zhongzhan Huang},
+  year={2026},
+  eprint={2611.00883},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2611.00883}
+}
+```
